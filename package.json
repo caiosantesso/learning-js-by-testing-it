@@ -1,0 +1,15 @@
+{
+  "name": "learning_js_by_testing_it",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-plugin-jest": "^26.1.4",
+    "jest": "^27.4.7"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --fix __test__/**/*.js"
+  }
+}
